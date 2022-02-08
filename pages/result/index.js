@@ -1,6 +1,6 @@
 import React from "react";
 
-import { ImgContainer, Title } from "../../styles/Result/style";
+import { ImgContainer, Title, SubText } from "../../styles/Result/style";
 
 function Index(props) {
   return (
@@ -13,6 +13,8 @@ function Index(props) {
           alt="pic"
         />
       </ImgContainer>
+
+      <SubText>kripaya result ko lagi wait garna hos. Dhanyabad</SubText>
     </div>
   );
 }
