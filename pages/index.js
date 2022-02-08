@@ -3,7 +3,7 @@ import Head from "next/head";
 import Image from "next/image";
 import { Select } from "@mantine/core";
 
-import { Container, Main, ImgContainer } from "./style";
+import { Container, Main, ImgContainer } from "../styles/style";
 
 export default function Home() {
   const [value, setValue] = useState("");
